@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+</head>
+<body>
+    <div style="" id="page1">
+        <h2>Magids inloggnings sida</h2>
+    
+    <input type="text" placeholder="Användarnamn" id="uname"  required>
+    <input type="password" placeholder="Lösenörd" id="pass"  required><br>
+   <!-- <input type="button" value="Login" id="submit" onclick="login()"/>-->
+    <button type="submit" onclick="login()">Log in</button>
+    <input type="checkbox" checked name="remember">Remember me</input></div>
+
+    <div id="page2" style="display: none">
+    <h2>Grattis du är inne!</h2>
+    <button onclick=" back()" id="back">logga ut!</button>
+    </div>
+
+    <div id="page3" style="display: none">
+    <h2>Fel Användarnamn eller Lösenörd!</h2>
+    <button onclick="forsok()" id="forsok">Försök igen!</button>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
